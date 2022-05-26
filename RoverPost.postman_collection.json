@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "2528b254-9a05-4bec-b9c7-f4aa3f8a173f",
+		"name": "RoverPost",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7292/API/ROVER",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "Content-Type",
+						"value": "text/plain",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\"5 5\\n1 2 N\\nLMLMLMLMM\\n3 3 E  \\nMMRMMRMRRM\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7292/API/ROVER",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7292",
+					"path": [
+						"API",
+						"ROVER"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "ipsum",
+							"value": "5 5\n1 2 N\nLMLMLMLMM\n3 3 E  \nMMRMMRMRRM",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
